@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Profile page</title>
+	<link href="styles.css" rel="stylesheet">
+
+</head>
+<body>
+	<nav>
+		<ol>
+	        <li class="crumb"><a href="./home.html">Home</a></li>
+	        <li class="crumb"><a href="./profile.html">Profile</a></li>
+	        <li class="crumb"><a href="./about.html">About</a></li>
+            <li class="crumb"><a href="./neighborhood.html">Neighborhood</a></li>
+	    </ol>
+	</nav>
+
+	<content id="profile-content">
+		<h1>Hi! My name is Jasmine.</h1>
+		<img id="peronal=pic" src="https://i.imgur.com/1rGx0lM.jpg">
+		<p>I'm a Chemistry PhD student at the Massachusetts Institute of Technology. I am particularly interested in processes in star-forming regions and the chemistry involved.
+        I have anaylzed astronomical data from various telescopes (Atacama Large Millimeter/submillimeter Array, Herschel Observatory, Very Large Array and Chandra Observatory).
+        In the meantime I am also learning more about data science and computer science, and hopefully can engage in the development of scientific software and the applications 
+        of machine learning in astrochemistry in the near future.</p>
+		
+        <h2>Skills</h2>
+		<ul>
+			<li>Chemistry</li>
+			<li>Astronomy</li>
+			<li>Python</li>
+            <li>LaTeX</li>
+            <li>Leraning Management System</li>
+		</ul>
+
+        <h2>Interests</h2>
+        <ul>
+			<li>Avid travaler (mostly study/work abroad and conferences)</li>
+			<li>Reading</li>
+			<li>Listening to music</li>
+		</ul>
+
+        <h2>Guess my favorites!</h2>
+        <div>
+            <button id="color" class="fav-btn">My Favorite Color</button>
+            <button id="place" class="fav-btn">My Favorite Place</button>
+            <button id="ritual" class="fav-btn">My Favorite Ritual</button>
+        </div>
+
+		<h2>Contact Me!</h2>
+		<form id="contact-me">
+			Your name:
+			<input type="text">
+			Message:
+            <br>
+			<textarea placeholder="Type your message here!"></textarea>
+
+			<input type="submit">
+		</form>
+        <ol id="social-container">
+            <li class="crumb"><a href="https://www.linkedin.com/in/so-yee-cheung/" target="_blank"><img class="social" src="https://cdn-icons-png.flaticon.com/512/174/174857.png"/></a></li>
+            <li class="crumb"><a href="mailto:jasminesyc2000@gmail.com" target="_blank"><img class="social" src="https://img.freepik.com/free-icon/envelope_318-408141.jpg?w=2000"/></a></li>
+        </ol>
+	</content>
+    
+	<script src="profile.js"></script>
+
+</body>
+</html>

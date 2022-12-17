@@ -1,0 +1,77 @@
+body {
+  background: #ddd;
+  margin: 1rem;
+  padding: 1rem;
+  max-width: 500px;
+  margin: 2rem auto;
+  font-family: "Open Sans", sans-serif;
+}
+
+nav {
+  border-bottom: 2px solid orange;
+}
+
+ol {
+  padding-left: 0;
+}
+
+.crumb {
+  margin-right: 2em;
+  display: inline;
+}
+
+.social {
+  height: 40px;
+  width: 40px;
+}
+
+#social-container {
+  display: flex;
+}
+
+#profile-content,
+#neighborhood-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+a {
+  color: orange;
+}
+
+a:visited {
+  color: crimson;
+}
+
+input {
+  display: block;
+}
+
+img {
+  max-width: 300px;
+}
+
+.fav-btn {
+  background-color: yellow;
+  height: 60px;
+  width: 120px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+#cambridge-pic {
+  max-height: 250px;
+  max-width: 400px;
+  height: auto;
+  width: auto;
+}
+
+#restaurant-btn {
+  background-color: #a31f34;
+  color: white;
+  height: 60px;
+  width: 200px;
+  font-size: 18px;
+  cursor: pointer;
+}
